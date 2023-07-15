@@ -8,5 +8,5 @@ export default {
     extend: {},
   },
   darkMode: 'class',
-  plugins: [require('flowbite/plugin')],
+  plugins: [],
 }
