@@ -1,6 +1,5 @@
 import me from './assets/gitahi.jpg'
-import { FaLinkedin, FaTwitter, FaSun, FaMoon, FaGear } from 'react-icons/fa';
-import Hashnode from './assets/hashnode.svg';
+import { FaLinkedin, FaTwitter, FaSun, FaMoon, FaGithub } from 'react-icons/fa';
 import { useState, useEffect } from "react";
 
 const NavBar = () => {
@@ -30,7 +29,7 @@ const NavBar = () => {
 
         <div className='hidden md:flex items-center gap-8 flex-1 justify-between'>
           <div className="items-center justify-between hidden md:flex md:w-auto w-3/5" id="navbar-cta">
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Evans</a>
               </li>
@@ -48,14 +47,14 @@ const NavBar = () => {
               <span>{theme === 'dark' ? 'Dark' : "Light"}</span>
             </div>
             <div className='flex items-center gap-2'>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-300 dark:hover:bg-gray-400 dark:hover:text-slate-950'>
+              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
                 <FaLinkedin />
               </div>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-300 dark:hover:bg-gray-400 dark:hover:text-slate-950'>
+              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
                 <FaTwitter />
               </div>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-300 dark:hover:bg-gray-800 dark:hover:text-white'>
-                <img src={Hashnode} alt="hashnode" className='h-4' />
+              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
+                <FaGithub />
               </div>
             </div>
           </div>
