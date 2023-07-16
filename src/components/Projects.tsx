@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = arr.map((_, index) => index + 1);
 
     return (
-        <section className='h-full max-w-[95%] mx-auto flex flex-col gap-6'>
+        <section className='h-full max-w-[85%] mx-auto flex flex-col gap-6'>
             <div className='flex flex-col gap-4 md:w-3/5 mx-auto text-center'>
                 <h1 className='text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-semibold dark:text-gray-300'>My Projects</h1>
                 <p className='text-base md:text-lg xl:text-xl dark:text-gray-300'>Here are some of my projects that I have done</p>

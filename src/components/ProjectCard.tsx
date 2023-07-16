@@ -1,19 +1,38 @@
+import { useState } from "react";
+import Github from '../assets/github.png';
+import Link from '../assets/link.png';
+
 type propsType = {
     source: string;
 }
 
 
 const ProjectCard = ({ source }: propsType) => {
+
     return (
-
-        <a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row lg:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-500">
-            <img className="object-cover w-full rounded-t-lg h-96 lg:h-56 lg:w-56 lg:rounded-none lg:rounded-l-lg" src={source} alt="" />
-            <div className="flex flex-col justify-between p-4 leading-normal">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <div className="relative h-full w-full ">
+            <img
+                className="w-full h-full object-cover"
+                src={source}
+                alt="Card Image"
+            />
+            <div className="absolute inset-0 bg-indigo-900 flex flex-col gap-6 items-center justify-center opacity-0 hover:opacity-100  transition-opacity duration-500">
+                <h4 className="text-lg text-white">GREEN ROOM</h4>
+                <p className="px-8 text-white">A website that enables user to view and purchase house plants.</p>
+                <div className="flex justify-center items-center">
+                    <a href="https://github.com/gitahievans/plant-shop-website" target="_blank" >
+                        <img src={Github} alt="" />
+                    </a>
+                    <a href="https://plant-shop-website-git-main-gitahievans.vercel.app/" target="_blank">
+                        <img src={Link} alt="" />
+                    </a>
+                </div>
+                <div className="flex text-white">
+                    <span className="mr-2">ReactJS</span>
+                    <span>Tailwind CSS</span>
+                </div>
             </div>
-        </a>
-
+        </div>
     )
 }
 
