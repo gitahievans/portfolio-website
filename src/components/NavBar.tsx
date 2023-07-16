@@ -1,7 +1,11 @@
 import me from '../assets/gitahi.jpg'
-import { FaLinkedin, FaTwitter, FaSun, FaMoon, FaGithub } from 'react-icons/fa';
+import {  FaSun, FaMoon } from 'react-icons/fa';
 import { useState, useEffect } from "react";
 import MobileNav from './MobileNav';
+import LinkedIn from '../assets/linkedin-logo.png'
+import Twitter from '../assets/twitter.png';
+import Github from '../assets/github.png';
+
 const NavBar = () => {
   const [theme, setTheme] = useState('light');
 
@@ -24,20 +28,19 @@ const NavBar = () => {
       <div className="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center gap-2 flex-1">
           <img src={me} className="h-10 rounded-full" alt="Evans" />
-          <span className="self-center text-base md:text-lg font-semibold whitespace-nowrap dark:text-white">Evans Gitahi</span>
         </div>
 
         <div className='hidden md:flex items-center gap-8 flex-1 justify-between'>
           <div className="items-center justify-between hidden md:flex md:w-auto w-3/5" id="navbar-cta">
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 text-lg">
               <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Evans</a>
+                <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">/Evans</a>
               </li>
               <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">/Projects</a>
               </li>
               <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
+                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">/Skills</a>
               </li>
             </ul>
           </div>
@@ -47,14 +50,14 @@ const NavBar = () => {
               <span>{theme === 'dark' ? 'Dark' : "Light"}</span>
             </div>
             <div className='flex items-center gap-2'>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
-                <FaLinkedin />
+              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 -rotate-12'>
+                <img src={LinkedIn} alt='linkedin'  />
+              </div>
+              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 '>
+                <img src={Twitter} alt='twitter' />
               </div>
               <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
-                <FaTwitter />
-              </div>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
-                <FaGithub />
+                <img src={Github} alt='github' />
               </div>
             </div>
           </div>
