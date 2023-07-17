@@ -1,10 +1,11 @@
 import me from '../assets/gitahi.jpg'
-import {  FaSun, FaMoon } from 'react-icons/fa';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import { useState, useEffect } from "react";
 import MobileNav from './MobileNav';
-import LinkedIn from '../assets/linkedin-logo.png'
-import Twitter from '../assets/twitter.png';
-import Github from '../assets/github.png';
+// import LinkedIn from '../assets/linkedin-logo.png'
+// import Twitter from '../assets/twitter.png';
+// import Github from '../assets/github.png';
+// import { IconStyles } from '../../Constants/constants';
 
 const NavBar = () => {
   const [theme, setTheme] = useState('light');
@@ -24,7 +25,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-white max-w-[85%] mx-auto border-gray-200 dark:bg-gray-900 transition-all duration-1000">
+    <nav className="lg:max-w-[85%] mx-auto border-gray-200 dark:bg-gray-900 transition-all duration-500">
       <div className="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center gap-2 flex-1">
           <img src={me} className="h-10 rounded-full" alt="Evans" />
@@ -44,22 +45,16 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <div className='flex flex-row-reverse items-center w-2/5 justify-between'>
+          <div className='flex'>
             <div className="flex items-center gap-2 cursor-pointer px-2 py-1 rounded-xl border border-transparent hover:border-gray-800 hover:bg-slate-300 dark:text-white dark:hover:text-gray-900 transition-all duration-500" onClick={handleThemeToggle}>
               {theme === 'dark' ? <FaMoon /> : <FaSun />}
               <span>{theme === 'dark' ? 'Dark' : "Light"}</span>
             </div>
-            <div className='flex items-center gap-2'>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 -rotate-12'>
-                <img src={LinkedIn} alt='linkedin'  />
-              </div>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 '>
-                <img src={Twitter} alt='twitter' />
-              </div>
-              <div className='hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950'>
-                <img src={Github} alt='github' />
-              </div>
-            </div>
+            {/* <div className='flex items-center gap-2'>
+              <img src={LinkedIn} alt='linkedin' className={IconStyles} />
+              <img src={Twitter} alt='twitter' className={IconStyles} />
+              <img src={Github} alt='github' className={IconStyles} />
+            </div> */}
           </div>
         </div>
 
