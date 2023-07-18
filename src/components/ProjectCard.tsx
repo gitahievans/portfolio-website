@@ -8,9 +8,9 @@ const ProjectCard = ({ project }: ProjectCardType) => {
         <>
             {
                 project?.map(item => (
-                    <div key={crypto.randomUUID()} className="relative w-full rounded-2xl h-80 bg-lime-200 max-w-lg border border-gray-300 hover:shadow-2xl hover:shadow-black dark:shadow-purple-600  transition-shadow duration-1000">
+                    <div key={crypto.randomUUID()} className="relative w-full rounded-2xl h-80 bg-lime-200 max-w-lg border border-gray-300 hover:shadow-2xl hover:shadow-black dark:shadow-purple-600 transition-shadow duration-500 ease-out">
                         <img
-                            className="w-full h-full object-cover rounded-2xl dark:brightness-75 transition-all duration-1000"
+                            className="w-full h-full object-cover rounded-2xl dark:brightness-75 transition-all duration-700"
                             alt="Card Image"
                             src={item?.image}
                         />

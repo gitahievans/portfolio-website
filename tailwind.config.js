@@ -9,7 +9,7 @@ export default {
       fontFamily: {
         'ff-poppins': ['Josefin Sans', 'sans-serif'],
       },
-},
+    },
   },
   darkMode: 'class',
   plugins: [require("daisyui")],

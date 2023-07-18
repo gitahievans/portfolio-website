@@ -1,20 +1,32 @@
 export const NavLinks = [
     {
-        to: 'evans', id: 1, text: 'Evans'
+        to: 'evans', text: 'Evans'
     }, {
-        to: 'projects', id: 2, text: 'projects'
+        to: 'skills', text: 'skills'
+    },
+    {
+        to: 'projects', text: 'projects'
+    },
+    {
+        to: 'open-source', text: 'open-source'
     }
     , {
-        to: 'contact', id: 3, text: 'contact'
+        to: 'contact', text: 'contact'
     }
-    , {
-        to: 'skills', id: 4, text: 'skilla'
-    }
+    
 ]
 
 export const projects = [
     {
         websites: [
+            {
+                name: 'File Share',
+                image: '../src/assets/bootlight.png',
+                description: "This is the Bootlight Autovaluers Portal. The portal's main objective is to enable Bootlight Autovaluers to share reports with their clients.",
+                tools: ['Django', 'React.js'],
+                github: 'https://github.com/gitahievans/bootlight',
+                live: 'https://bootlight-gitahievans.vercel.app/',
+            },
             {
                 name: 'green room',
                 image: '../src/assets/plant.png',
@@ -64,3 +76,6 @@ export const projects = [
 ]
 
 export const IconStyles = 'hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 '
+
+export const activeNavClassName = 'block py-2 pl-3 pr-4 text-white capitalize bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500'
+export const inactiveNavClassName = 'block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 md:dark:text-white capitalize dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'

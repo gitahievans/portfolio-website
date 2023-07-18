@@ -12,7 +12,7 @@ const Projects = () => {
                 <p className='text-base md:text-lg xl:text-xl dark:text-gray-300'>Here are some of my projects</p>
             </div>
             <Tab.Group>
-                <Tab.List className="flex gap-1 rounded-xl p-1 bg-gray-100 dark:bg-transparent ">
+                <Tab.List className="flex gap-1 rounded-xl p-1 bg-blue-100 dark:bg-transparent ">
                     {
                         projects.map((project) => (
                             Object.keys(project).map((item) => (
