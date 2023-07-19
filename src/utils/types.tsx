@@ -10,3 +10,9 @@ export type ProjectType = {
 export type ProjectCardType = {
     project: ProjectType[] | []
 }
+
+export type skill = {
+    skill: string,
+    image: string
+}
+

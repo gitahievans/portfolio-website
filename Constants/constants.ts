@@ -77,5 +77,93 @@ export const projects = [
 
 export const IconStyles = 'hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 '
 
-export const activeNavClassName = 'block py-2 pl-3 pr-4 text-white capitalize bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500'
-export const inactiveNavClassName = 'block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 md:dark:text-white capitalize dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+export const activeNavClassName = 'block text-purple-100 dark:text-purple-950 capitalize border-b-purple-800'
+export const inactiveNavClassName = 'block text-gray-100 dark:text-gray-900 capitalize'
+
+
+// Choose your skills from below. Make sure it's in the same format and spelled correctly.
+// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
+
+
+// AVAILABLE SKILLS
+
+/* 
+    HTML
+    CSS
+    JS 
+    React
+    Next JS
+    Nuxt JS
+    Node JS
+    Vue
+    Angular
+    Docker
+    Photoshop
+    Illustrator
+    Svelte
+    GCP
+    Azure
+    Fastify
+    Haxe
+    Ionic
+    Markdown
+    Microsoft Office
+    Picsart
+    Sketch
+    Unity
+    WolframAlpha
+    Adobe XD
+    After Effects
+    Bootstrap
+    Bulma
+    CapacitorJs
+    Coffeescript
+    MemSQL
+    C
+    C++
+    C#
+    Python
+    Java
+    Julia
+    Matlab
+    Swift
+    Ruby
+    Kotlin
+    Go
+    PHP
+    Flutter
+    Dart
+    Typescript
+    Swift
+    Git
+    Figma
+    Canva
+    Ubuntu
+    Bootstrap
+    MongoDB
+    Tailwind
+    ViteJS
+    VuetifyJS
+    MySQL
+    PostgreSQL
+    AWS
+    Firebase
+    Blender
+    Premiere Pro
+    Adobe Audition
+    Deno
+    Django
+    Gimp
+    Graphql
+    Lightroom
+    MaterialUI
+    Nginx
+    Numpy
+    OpenCV
+    Pytorch
+    Selenium
+    Strapi
+    Tensorflow
+    Webex
+    Wordpress
+*/
