@@ -8,11 +8,11 @@ const Experience = () => {
 
 
     return (
-        <section className='px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6 items-center lg:justify-center h-screen '>
+        <section className='px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6 items-center lg:justify-center '>
             <h1 className=" text-3xl sm:text-4xl md:text-5xl font-semibold text-primary">evans.experience</h1>
-            <div className="flex flex-col lg:flex-row gap-6 items-center lg:justify-center h-screen ">
+            <div className="flex flex-col lg:flex-row gap-6 items-center lg:justify-center ">
                 <div className=" flex lg:w-1/2 items-center justify-center">
-                    <AnimationLottie animationPath={lottieJson} width='80%' />
+                    <AnimationLottie animationPath={lottieJson} width='60%' />
                 </div>
                 <div className="w-full md:w-4/5 lg:w-1/2 flex flex-col gap-6 md:gap-10 hover:shadow-2xl dark:hover:shadow-purple-700 bg-gray-100 dark:bg-gray-800 dark:text-gray-100 rounded-lg py-3 transition-all duration-300 ease-in-out">
                     <div className="flex gap-2 items-center">
