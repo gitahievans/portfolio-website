@@ -2,8 +2,7 @@ import { skillsData } from '../utils/skillsData';
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center py-6 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto ">
-
+    <div className="flex flex-col items-center py-6 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto min-h-screen">
       <h2 className="font-primary font-bold text-3xl sm:text-4xl md:text-5xl text-center text-primary">evans.skills</h2>
 
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 md:gap-4 place-items-center">

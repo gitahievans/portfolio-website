@@ -8,7 +8,7 @@ export const NavLinks = [
         to: 'projects', text: '.projects'
     },
     {
-        to: 'open-source', text: '.open-source'
+        to: 'experience', text: '.experience'
     }
     , {
         to: 'contact', text: '.contact'

@@ -16,7 +16,7 @@ const MobileNav = () => {
                     {
                         NavLinks.map(nav => (
                             <li key={crypto.randomUUID()} onClick={close} >
-                                <NavLink to={nav.to} className={({ isActive }) => isActive ? activeNavClassName : inactiveNavClassName} >{nav.text}</NavLink>
+                                <NavLink to={nav.to} className={({ isActive }) => isActive ? 'border-b-2 border-b-purple-600 px-3 lg:px-6 py-2 text-sm md:text-lg dark:text-white  font-medium transition-all duration-500' : 'px-3 lg:px-6 py-2 text-sm md:text-lg dark:text-white font-medium hover:bg-purple-600 hover:text-white border-b-2 border-b-transparent rounded-3xl  transition-all duration-150'} >{nav.text}</NavLink>
                             </li>
                         ))
                     }
