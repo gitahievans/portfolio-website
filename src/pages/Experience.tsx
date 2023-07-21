@@ -8,7 +8,7 @@ const Experience = () => {
 
 
     return (
-        <section className='px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6 items-center lg:justify-center '>
+        <section className='px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6 items-center justify-center min-h-screen '>
             <h1 className=" text-3xl sm:text-4xl md:text-5xl font-semibold text-primary">evans.experience</h1>
             <div className="flex flex-col lg:flex-row gap-6 items-center lg:justify-center ">
                 <div className=" flex lg:w-1/2 items-center justify-center">
