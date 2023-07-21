@@ -1,19 +1,19 @@
 export const NavLinks = [
     {
-        to: 'evans', text: 'Evans'
+        to: '/', text: '.evans'
     }, {
-        to: 'skills', text: 'skills'
+        to: 'skills', text: '.skills'
     },
     {
-        to: 'projects', text: 'projects'
+        to: 'projects', text: '.projects'
     },
     {
-        to: 'open-source', text: 'open-source'
+        to: 'open-source', text: '.open-source'
     }
     , {
-        to: 'contact', text: 'contact'
+        to: 'contact', text: '.contact'
     }
-    
+
 ]
 
 export const projects = [
@@ -75,10 +75,8 @@ export const projects = [
 
 ]
 
-export const IconStyles = 'hover:bg-slate-300 border-2 border-transparent hover:border-2 hover:border-gray-600 p-3 rounded-full transition-all duration-500 ease-in-out cursor-pointer dark:text-slate-100 dark:hover:bg-gray-100 dark:hover:text-slate-950 '
-
-export const activeNavClassName = 'block text-purple-100 dark:text-purple-950 capitalize border-b-purple-800'
-export const inactiveNavClassName = 'block text-gray-100 dark:text-gray-900 capitalize'
+// export const inactiveLinkStyles = 'px-3 lg:px-6 py-2 text-sm lg:text-lg dark:text-white  font-medium hover:bg-gray-200 border-b-2 border-b-transparent rounded-3xl  transition-all duration-500'
+// export const activeLinkStyles = `border-b-2 border-b-purple-600 px-3 lg:px-6 py-2 text-sm lg:text-lg dark:text-white  font-medium transition-all duration-500 `
 
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

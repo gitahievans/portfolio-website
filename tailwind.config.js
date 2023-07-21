@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'ff-poppins': ['Josefin Sans', 'sans-serif'],
+        'name-font': ['Montserrat Alternates', 'sans-serif']
       },
     },
   },

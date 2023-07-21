@@ -47,10 +47,6 @@ export const skillsData: skill[] = [
         image: ruby
     },
     {
-        skill: 'Ruby',
-        image: ruby
-    },
-    {
         skill: 'Ruby on Rails',
         image: rails
     },

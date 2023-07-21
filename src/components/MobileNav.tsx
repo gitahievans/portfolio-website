@@ -2,7 +2,6 @@ import { Drawer } from '@mantine/core';
 import { NavLinks } from '../../Constants/constants.ts';
 import { useDisclosure } from '@mantine/hooks';
 import { GiHamburgerMenu } from '@react-icons/all-files/gi/GiHamburgerMenu';
-import { activeNavClassName, inactiveNavClassName } from '../../Constants/constants'; 
 import { NavLink } from 'react-router-dom';
 
 

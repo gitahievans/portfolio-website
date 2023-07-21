@@ -19,7 +19,7 @@ const ProjectCard = ({ project }: ProjectCardType) => {
                             <p className="px-8 text-white text-lg font-medium">{item?.description}</p>
                             <div className="flex justify-center items-center gap-4">
                                 <a href={item?.github} target="_blank" >
-                                    <img src={Github} alt="github" />
+                                    <img src={Github} alt="github" className='w-8 h-8'/>
                                 </a>
                                 <a href={item?.live} target="_blank">
                                     <img src={LinkIcon} alt="live site" />

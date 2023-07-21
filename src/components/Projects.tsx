@@ -6,9 +6,9 @@ const Projects = () => {
 
 
     return (
-        <section className='h-full px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6'>
+        <section className='px-2 md:px-5 lg:px-0 lg:max-w-[85%] mx-auto flex flex-col gap-6'>
             <div className='flex flex-col gap-4 md:w-3/5 mx-auto text-center'>
-                <h1 className='text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold text-primary'>evans.projects</h1>
+                <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-primary'>evans.projects</h1>
                 <p className='text-base md:text-lg xl:text-xl dark:text-gray-300'>Here are some of my projects</p>
             </div>
             <Tab.Group>
