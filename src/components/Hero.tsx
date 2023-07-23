@@ -17,15 +17,15 @@ const Hero = () => {
                     <span className="font-name-font">Download CV</span>
                     <img src={downloadIcon} alt="download" />
                 </a>
-                <div className='flex items-center gap-2'>
+                <div className='flex items-center justify-start w-full py-4 gap-2'>
                     <Link to='https://twitter.com/gitahi_evans' download target="blank">
-                        <img src={LinkedIn} alt='linkedin' className='w-12 h-12 lg:w-20 lg:h-20' />
+                        <img src={LinkedIn} alt='linkedin' className='w-14  lg:w-20 ' />
                     </Link>
                     <Link to='https://www.linkedin.com/in/evans-gitahi/' download target="blank">
-                        <img src={Twitter} alt='twitter' className='w-12 h-12 lg:w-20 lg:h-20' />
+                        <img src={Twitter} alt='twitter' className='w-14  lg:w-20 ' />
                     </Link>
                     <Link to='https://github.com/gitahievans' download target="blank">
-                        <img src={Github} alt='github' className='w-10 md:w-[68px] lg:h-[68px]' />
+                        <img src={Github} alt='github' className='w-16  lg:w-[88px] ' />
                     </Link>
                 </div>
             </div>
