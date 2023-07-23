@@ -16,3 +16,14 @@ export type skill = {
     image: string
 }
 
+export type project = {
+    name: string,
+    description: string,
+    role: string,
+    achievements: string[],
+    link: string
+}
+
+export type projectPropsType = {
+    project: project
+}

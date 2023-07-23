@@ -78,6 +78,24 @@ export const projects = [
 
 ]
 
+
+export const contributedProjects = [
+    {
+        name: 'Rentershub',
+        description: 'Rentershub aims to bridge the gap between landlords and and house hunters, and solve the property glut problem in Kenya by employing smart data driven techniques that aid in availing customers where there are houses.',
+        link: 'https://www.rentershub.co.ke/index.php',
+        role: 'Frontend Developer',
+        achievements: ['Refactoring codebase to achieve desired functionality', 'Implementing web designs with high precision.', 'Collaborating with other developers']
+    },
+    {
+        name: 'CryptoLeo',
+        description: 'It is a tool to view and compare the performance of different cryptocurrencies. The app allows users to filter, sort and compare the performance of various coins based on metrics such as market cap, price, volume, and other indicators.',
+        link: 'https://crypto-leo.vercel.app/',
+        role: 'Frontend Developer',
+        achievements: ['Implementing web designs with high precision', 'Refactoring codebase to improve desired functionality', 'Collaborating with other developers',]
+    }
+]
+
 // export const inactiveLinkStyles = 'px-3 lg:px-6 py-2 text-sm lg:text-lg dark:text-white  font-medium hover:bg-gray-200 border-b-2 border-b-transparent rounded-3xl  transition-all duration-500'
 // export const activeLinkStyles = `border-b-2 border-b-purple-600 px-3 lg:px-6 py-2 text-sm lg:text-lg dark:text-white  font-medium transition-all duration-500 `
 

@@ -27,7 +27,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="container mx-auto py-10 flex flex-col items-center">
+        <section className="container mx-auto py-10 flex flex-col items-center min-h-screen">
             <h1 className="text-3xl font-bold mb-6 dark:text-gray-300">CONTACT ME</h1>
             <div className='flex flex-col w-full md:text-xl dark:text-gray-300'>
                 <div className='flex items-center justify-between w-full px-2'>
